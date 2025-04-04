@@ -242,6 +242,14 @@ button:hover {
   padding-bottom: 50px;
 }
 
+.button-project a {
+  color: #ffffff;
+}
+
+.button-project:hover a {
+  color: #0159d3;
+}
+
 .content-project {
   display: flex;
   justify-content: center;
