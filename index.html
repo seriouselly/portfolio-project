@@ -61,15 +61,7 @@
         <h1>MY PROFILE</h1>
         <div class="profile">
           <img src="./assets/images/my-profile.jpg" alt="" />
-          <p>
-            I was born in Jakarta, Indonesia and now I'm 27th years old. I have
-            gained 4 years and 14 months of work experience, including 6 months
-            as a Production Operator and 4 years and 8 months in the
-            Administration field. Throughout my career, I have learned many new
-            things that have shaped me into a visionary and well-organized
-            individual. Additionally, these experiences have enhanced my ability
-            to work quickly, accurately, and precisely.
-          </p>
+          <p id="typing-text"></p>
         </div>
       </article>
 
@@ -183,32 +175,36 @@
         </a>
       </article>
     </main>
+    <footer id="contactme">
+      <h1>MY CONTACT</h1>
+      <form action="https://formspree.io/f/mdkewvbw" method="POST">
+        <label for="email">Your email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Messages:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button class="send" type="submit">Send</button>
+      </form>
+
+      <div class="media">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/selly-s-0b5004203/"
+        >
+          <img src="./assets/icons/linkedin.svg" alt="linkedin-icon" />
+        </a>
+
+        <a target="_blank" href="https://discord.com/channels/@me">
+          <img src="./assets/icons/discord.svg" alt="discord-icon" />
+        </a>
+
+        <a target="_blank" href="https://github.com/seriouselly">
+          <img src="./assets/icons/github.svg" alt="github-icon" />
+        </a>
+        <p>&copy; Selly Supriyatin 2025</p>
+      </div>
+    </footer>
+    <script src="./assets/scripts/typing-text.js"></script>
   </body>
-  <footer id="contactme">
-    <h1>MY CONTACT</h1>
-    <form action="https://formspree.io/f/mdkewvbw" method="POST">
-      <label for="email">Your email:</label>
-      <input type="email" id="email" name="email" required />
-
-      <label for="message">Messages:</label>
-      <textarea id="message" name="message" required></textarea>
-
-      <button class="send" type="submit">Send</button>
-    </form>
-
-    <div class="media">
-      <a target="_blank" href="https://www.linkedin.com/in/selly-s-0b5004203/">
-        <img src="./assets/icons/linkedin.svg" alt="linkedin-icon" />
-      </a>
-
-      <a target="_blank" href="https://discord.com/channels/@me">
-        <img src="./assets/icons/discord.svg" alt="discord-icon" />
-      </a>
-
-      <a target="_blank" href="https://github.com/seriouselly">
-        <img src="./assets/icons/github.svg" alt="github-icon" />
-      </a>
-      <p>&copy; Selly Supriyatin 2025</p>
-    </div>
-  </footer>
 </html>
