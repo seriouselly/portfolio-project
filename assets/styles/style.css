@@ -21,16 +21,17 @@ header {
   padding: 20px;
   position: sticky;
   top: 0;
-  z-index: 0;
+  z-index: 1000;
   border: none;
   background-color: #d2d2d2;
   opacity: 70%;
 }
 
-.home {
-  padding-right: 250px;
-  font-size: 10px;
-  font-weight: 500;
+.home h1 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 195px;
+  padding-left: 30px;
 }
 
 a {
@@ -42,6 +43,7 @@ a {
 
 ul {
   display: flex;
+  justify-content: center;
   gap: 40px;
   list-style: none;
 }
@@ -51,20 +53,10 @@ a:hover {
   font-size: 17px;
 }
 
-.home:hover {
-  color: #000000;
-  font-size: 10px;
-}
-
 #home {
   padding-block: 150px;
   padding-inline: 150px;
   text-align: center;
-}
-
-#home h1 {
-  font-size: 30px;
-  font-weight: 600;
 }
 
 #home img {
@@ -134,7 +126,6 @@ button:hover {
   justify-content: center;
   align-items: center;
   gap: 45px;
-  /* text-align: justify; */
   font-size: 20px;
   line-height: 35px;
   width: 1140px;
@@ -378,7 +369,7 @@ button:hover {
 }
 
 #contactme {
-  padding-inline: 150px;
+  padding: 150px;
 }
 
 #contactme h1 {
@@ -388,9 +379,9 @@ button:hover {
 
 form {
   width: 400px;
-  /* height: 500px; */
+  height: 400px;
   padding: 20px;
-  margin: 50px auto;
+  margin: 40px auto;
   background: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
